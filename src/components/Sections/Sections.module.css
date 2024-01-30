@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.all{
+    margin-top: 92px;
+    display: flex;
+    width: 722px;
+    height: 1397px;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 350px;
+    gap: 42px;
+    border-radius: 24px;
+    padding-left: 50px;
+    transition: all 0.5s;
+}
+.all:hover{
+    border:2px solid lightgray;
+    box-shadow: 29px 29px 7px 10px rgb(163, 163, 163)
+
+}
+.h1{
+    color: var(--Dark, #2A2941);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Circular Std";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 41 .6px */ 
+    margin-top: 40px;  
+}
+.text{
+    color: var(--30-black, #B3B3B3);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Circular Std";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 130%; /* 20.8px */
+    opacity: 1;
+    cursor: pointer;
+    padding-top: 16px;
+  }
+  .images{
+    margin-top: 32px;
+    display: flex;
+    gap: 14px;
+  }
+  .btn{
+    color: blue;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Circular Std";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    border:none;
+    background: none;
+    transition: all 0.5s;
+    padding: 5px 5px;
+    border-radius:10px;
+  }
+  .haj1{
+    color: var(--Dark, #2A2941);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Circular Std";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    cursor: pointer;
+    margin-top: -10px;
+  }
+  .input{
+    display: flex;
+    width: 630px;
+    margin-top: 17px;
+    border-radius: 16px;
+    border: 1px solid #E3E3E3;
+    height: 56px;
+    padding: 18px;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .ja11{
+    color: var(--Dark, #2A2941);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Circular Std";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    margin-top: 20px;
+  }
+  .link{
+    color: var(--Dark, #2A2941);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Circular Std";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    margin-top: -10px;
+  }
+  .lik{
+    margin-top: 20px;
+    display:flex;
+    gap: 13px;
+  }
+  .onelik{
+    display: flex;
+    width: 80px;
+    padding: 28px;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 12px;
+    border: 1px solid #E3E3E3;
+    cursor: pointer;
+    background: lightgray;
+    transition: all 0.5s;
+  }
+  .onelik:hover{
+    transform: scale(1.2);
+    background: rgb(156, 156, 156);
+  }
+  .onetext{
+    color: var(--Dark, #2A2941);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Circular Std";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    width: 88.06px;
+  }
+  .davlat{
+    display: flex;
+    gap: 20px;
+  }
+  .in{
+    display: flex;
+width: 31   1px;
+height: 56px;
+padding: 18px;
+justify-content: space-between;
+align-items: center;
+border-radius: 16px;
+border: 1px solid #E3E3E3;
+margin-top: 8px;
+margin-left: -3px;
+  }
+.info{
+    margin-top: -30px;
+}
+.izoh{
+    color: var(--Dark, #2A2941);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: "Circular Std";
+font-size: 14px;
+font-style: normal;
+font-weight: 450;
+line-height: normal;
+margin-top: 20px;
+}
+.desc{
+    display: flex;
+width: 632px;
+height: 148px;
+padding-left: 10px;
+align-items: start;
+gap: 10px;
+margin-top: 8px;
+border-radius: 16px;
+border: 1px solid #E3E3E3;
+}
+.ortga{
+    display: flex;
+width: 179.841px;
+height: 60px;
+padding: 15px 30px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 16px;
+background: #F8F8F8;
+cursor: pointer;
+border:1px solid lightgray;
+transition: all 1.5s;
+margin-top: 42px;
+}
+.ortga:hover{
+    background: rgb(173, 172, 172);
+    transform: scale(1.2);
+}
+.twobutton{
+    display: flex;
+    gap: 270px;
+}
+.keyingi{
+    display: flex;
+width: 179.841px;
+height: 60px;
+padding: 15px 30px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 16px;
+background: blue;
+color:white;
+cursor: pointer;
+border:1px solid lightgray;
+transition: all 0.5s;
+margin-top: 43px;
+transition: all 0.5s;
+}
+.keyingi:hover{
+    background: rgb(3, 3, 196);
+    transform: scale(1.2);
+}
